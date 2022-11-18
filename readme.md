@@ -60,9 +60,13 @@
     git diff commit-1 commit-2
 ```
 
-### Eliminar commits
+### Eliminar commits repositorio local
 ```bash
     git reset --soft HEAD~1
     git reset --hard HEAD~1
 ```
-
+### Eliminar commits repositorio remoto
+```bash
+    git revert HEAD
+    git revert --no-commit HEAD
+```
