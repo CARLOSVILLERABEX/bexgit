@@ -76,4 +76,40 @@
     git revert --no-commit HEAD
     git revert –continue
 ```
+```bash
+    git revert --abort
+```
+
 ##### Se debe hace push.
+
+### Listar ramas locales, remotas.
+```bash
+    git branch
+    git branch -a
+```
+### Crear rama.
+```bash
+    git branch nameNewBranch
+```
+
+### Moverme a una rama.
+```bash
+    git checkout nameBranch
+```
+### Crear rama y moverme.
+```bash
+    git checkout -b anothebranch
+```
+### Eliminar rama local.
+```bash
+    git branch -d branch_name
+```
+### Renombrar rama local.
+```bash
+    git branch -m oldname newname
+```
+### Fusionar ramas
+```bash
+    git checkout main
+    git merge branch_name
+```
