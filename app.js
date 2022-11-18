@@ -8,11 +8,11 @@ createApp({
       comments: 15,
       name: "Jenna Stones",
       city: "Los Angeles, California",
+      date: null
     }
   },
   methods: {
     showDate(){
-      this.date =  Date();
       this.date =  Date();
     }
   }
