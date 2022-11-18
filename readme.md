@@ -69,4 +69,5 @@
 ```bash
     git revert HEAD
     git revert --no-commit HEAD
+    git revert –continue ( se debe agregar commit)
 ```
