@@ -14,7 +14,7 @@
 ```
 #### Listar configuraciones.
 ```bash
-    git config –list 
+    git config –list
     git config -l
 ```
 #### Inicializar repositorio git.
@@ -108,8 +108,14 @@
 ```bash
     git branch -m oldname newname
 ```
-### Fusionar ramas
+### Fusionar ramas.
 ```bash
     git checkout main
     git merge branch_name
+```
+### Agregar repositorio remoto
+```bash
+    git remote add origin https://github.com/CARLOSVILLERABEX/a.git
+    git branch -M main
+    git push -u origin main
 ```
