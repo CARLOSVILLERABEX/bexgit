@@ -13,6 +13,7 @@ createApp({
   methods: {
     showDate(){
       this.date =  Date();
+      this.date =  Date();
     }
   }
 }).mount('#app')
