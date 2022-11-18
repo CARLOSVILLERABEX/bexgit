@@ -5,7 +5,7 @@ createApp({
     return {
       friends: 25,
       photos: 8,
-      comments: 25,
+      comments: 15,
       name: "Jenna Stones",
       city: "Los Angeles, California",
       date: null
