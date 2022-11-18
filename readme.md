@@ -1,42 +1,68 @@
-# Comandos git
-## Configurar git
-### Configurar git globalmente
+# Comandos git.
+## Configurar git.
+### Configurar git globalmente.
 
 ```bash
     git config -–global user.name “mi nombre”
-    git config -–global user.email “mi correo
+    git config -–global user.email “mi correo"
 ```
-### Configurar git localmente
+### Configurar git localmente.
 
 ```bash
     git config --local user.name “mi nombre”
-    git config -–local user.email “mi correo
+    git config -–local user.email “mi correo"
 ```
-#### Listar configuraciones
+#### Listar configuraciones.
 ```bash
     git config –list 
     git config -l
 ```
-### Inicializar repositorio git
+#### Inicializar repositorio git.
 
 ```bash
     git init
 ```
+#### Ver modificaciones archivo en el directorio de trabajo.
 
+```bash
+    git diff
+```
+### Agregar archivo área de preparación.
 
+```bash
+    git add
+```
+### Agregar archivo al repositorio.
 
-git diff
+```bash
+    git commit -m
+```
+### Restaurar cambios en el directorio de trabajo.
 
-git add
-git commit -m
+```bash
+    git restore “nombre archivo”
+    git checkout “nombre archivo
+```
 
-git restore “nombre archivo”
-git checkout “nombre archivo
+### Restaurar cambios en el área de preparación.
 
-git reset “nombre del archivos”
-git reset HEAD
+```bash
+    git reset “nombre del archivos”
+    git reset HEAD
+```
 
-git log --oneline --decorate --graph
+#### Listar commits
+```bash
+    git log --oneline --decorate --graph
+```
+#### Ver diferencia dos commits
+```bash
+    git diff commit-1 commit-2
+```
 
-git reset --soft HEAD~
-git reset --hard HEAD~
+### Eliminar commits
+```bash
+    git reset --soft HEAD~1
+    git reset --hard HEAD~1
+```
+
