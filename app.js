@@ -8,7 +8,8 @@ createApp({
       comments: 15,
       name: "Jenna Stones",
       city: "Los Angeles, California",
-      date: null
+      date: null,
+      edad: 21
     }
   },
   methods: {
