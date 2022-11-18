@@ -51,22 +51,29 @@
     git reset HEAD
 ```
 
-#### Listar commits
+#### Listar commits.
 ```bash
     git log --oneline --decorate --graph
 ```
-#### Ver diferencia dos commits
+#### Ver diferencia dos commits.
 ```bash
     git diff commit-1 commit-2
 ```
 
-### Eliminar commits repositorio local
+### Eliminar commits repositorio local.
 ```bash
     git reset --soft HEAD~1
     git reset --hard HEAD~1
 ```
-### Eliminar commits repositorio remoto
+### Eliminar commits repositorio remoto.
+```bash
+    git revert HEAD
+```
+##### Se debe hace push.
+### Eliminar commits repositorio remoto sin commit.
 ```bash
     git revert HEAD
     git revert --no-commit HEAD
+    git revert –continue
 ```
+##### Se debe hace push.
