@@ -156,7 +156,7 @@
     git tag 
     git tag -l "*0*"
 ```
-### ELiminar etiquetas.
+### Eliminar etiquetas.
 ```bash
     git tag -d <name>
 ```
