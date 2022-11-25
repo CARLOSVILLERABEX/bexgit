@@ -9,6 +9,7 @@ createApp({
       name: "Jenna Stones",
       city: "Los Angeles, California",
       date: null,
+      clicks: 0,
       edad: 21
     }
   },
