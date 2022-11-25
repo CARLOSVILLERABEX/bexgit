@@ -10,6 +10,7 @@ createApp({
       city: "Los Angeles, California",
       date: null,
       clicks: 0,
+      edad: 21
     }
   },
   methods: {
