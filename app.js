@@ -6,7 +6,7 @@ createApp({
       friends: 25,
       photos: 8,
       comments: 15,
-      name: "Jenna Stones",
+      name: "John Jander",
       city: "Los Angeles, California",
       date: null,
       edad: 21
