@@ -9,6 +9,7 @@ createApp({
       name: "John Jander",
       city: "Los Angeles, California",
       date: null,
+      courses: 5
       clicks: 0,
       edad: 21
     }
