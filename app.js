@@ -6,10 +6,12 @@ createApp({
       friends: 25,
       photos: 8,
       comments: 15,
-      name: "Jenna Stones",
+      name: "John Jander",
       city: "Los Angeles, California",
       date: null,
       courses: 5
+      clicks: 0,
+      edad: 21
     }
   },
   methods: {

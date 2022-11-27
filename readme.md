@@ -137,3 +137,43 @@
 ```bash
     git remote set-url origin https://github.com/CARLOSVILLERABEX/a.git
 ```
+
+# Clase tres
+### Actualizar repositorio local desde el remoto.
+```bash
+    git tag <name>
+```
+### Crear etiqueta.
+```bash
+    git tag <name>
+```
+### Crear etiqueta anotada.
+```bash
+    git tag -a <name>
+```
+### Listar etiquetas.
+```bash
+    git tag 
+    git tag -l "*0*"
+```
+### Eliminar etiquetas.
+```bash
+    git tag -d <name>
+```
+### Publicar etiquetas. 
+```bash
+    git push -u origin <name>
+    git push --tags
+```
+## git stash.
+```bash
+    git stash
+    git stash –path
+    git stash save "custom name"
+    git stash list
+    git stash show
+    git stash pop stash@{0}
+    git stash apply stash@{0}
+    git stash clear
+    git stash branch test_2 stash@{0}
+```
