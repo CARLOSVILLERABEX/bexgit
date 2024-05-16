@@ -169,7 +169,7 @@
 ```bash
     git stash
     git stash –path
-    git stash save "custom name stash"
+    git stash save "custom name"
     git stash list
     git stash show
     git stash pop stash@{0}
